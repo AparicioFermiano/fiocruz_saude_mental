@@ -1,11 +1,31 @@
-# Curso de Saúde Mental
+# Saúde mental e atenção psicossocial de adolescentes e jovens
 
-## Aperfeiçoamento em saúde mental e atenção psicossocial de adolescentes e jovens - Fiocruz
+Curso on-line de aperfeiçoamento da Fiocruz, em HTML, CSS e JavaScript: seis módulos interativos, com recursos visuais e áudio, layout responsivo.
 
-Este repositório contém um curso online de saúde mental criado com HTML, CSS e Javascript para a renomada instituição Fiocruz. O curso tem como objetivo fornecer informações úteis e relevantes sobre saúde mental, incluindo tópicos como ansiedade, depressão, transtornos alimentares, estresse e muito mais.
+## Abrir
 
-O curso é apresentado em um formato interativo e envolvente, com recursos visuais e áudio para ajudar os usuários a compreender melhor os conceitos. Os usuários podem acompanhar as aulas em seu próprio ritmo e revisitar as lições sempre que desejarem.
+```bash
+python -m http.server 8000
+```
 
-O design do curso é moderno e atraente, com um layout responsivo que se adapta a qualquer dispositivo, seja desktop, tablet ou smartphone. Além disso, o código foi escrito seguindo as melhores práticas de desenvolvimento web, garantindo um desempenho confiável e uma experiência de usuário sem problemas.
+Acesse <http://localhost:8000/> (módulo 1). Os demais: `modulo02.html` … `modulo06.html`.
 
-Este repositório é uma valiosa ferramenta de aprendizado para qualquer pessoa que deseja melhorar sua compreensão sobre saúde mental e sua própria saúde emocional. E é uma contribuição significativa para a missão da Fiocruz de promover a saúde e o bem-estar das pessoas.
+Servir por HTTP em vez de abrir o arquivo direto evita bloqueio do navegador a scripts e mídia locais.
+
+## Estrutura
+
+```
+index.html            módulo 1
+moduloNN.html         módulos 2 a 6
+css/ js/ image/       estilos (com versão .min), scripts e imagens
+empacotado/           um .zip por módulo, pronto para entregar
+backup/               arquivos antigos (não publicados)
+```
+
+## Publicar
+
+Entregue o `.zip` do módulo em `empacotado/`, ou copie os arquivos para o servidor. Não há build.
+
+## Homologação
+
+Não há ambiente de homologação.

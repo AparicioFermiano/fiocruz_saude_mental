@@ -19,7 +19,6 @@ index.html            módulo 1
 moduloNN.html         módulos 2 a 6
 css/ js/ image/       estilos (com versão .min), scripts e imagens
 empacotado/           um .zip por módulo, pronto para entregar
-backup/               arquivos antigos (não publicados)
 ```
 
 ## Publicar
